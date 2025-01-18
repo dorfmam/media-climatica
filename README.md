@@ -1,6 +1,6 @@
 <h2> Projeto de Análise de Dados </h2>
 
-<p> Este é o meu 1° projeto pessoal, o desenvolvi com o intuito de praticar meus conhecimentos em Python e em análise de dados com pandas. Projetei este script para filtrar um dataframe, que contém informações das temperaturas históricas de uma cidade de um determindado país. </p>
+<p> Este é o meu primeiro projeto pessoal, o desenvolvi com o intuito de praticar meus conhecimentos em Python e em análise de dados com pandas. Projetei este script para filtrar um dataframe, que contém informações das temperaturas históricas de uma cidade de um determindado país. </p>
 
 <h2> Sobre Este Código</h2>
 
@@ -8,4 +8,8 @@
 
 <h2> Arquivo Utilizado </h2>
 
-<p> https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download </p>
+<p> Você pode baixar o arquivo neste link: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download </p>
+
+<h2> Observações </h2>
+
+<p> Pelo fato de ser um arquivo disponibilizado na web para fins didáticos, o mesmo possui algumas limitações, como por exemplo a data máxima que é "01/09/2013", você pode conferir isso utilizando "print(dataset['Data'].max())", caso não queira que um erro seja exibido. </p>
