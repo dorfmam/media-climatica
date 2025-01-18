@@ -13,3 +13,7 @@
 <h2> Observações ⚠️ </h2>
 
 <p> Pelo fato de ser um arquivo disponibilizado na web para fins didáticos, o mesmo possui algumas limitações, como por exemplo a data máxima que é "01/09/2013", você pode conferir isso utilizando "print(dataset['Data'].max())", caso não queira que um erro seja exibido. </p>
+
+<h2> Melhorias 🔧 </h2>
+
+<p> Em breve estarei desenvolvendo novas versões para este projeto, se quiser, fique a vontade para entrar em contato comigo caso gostou da ideia do projeto ou queira contribuir comigo neste ou em futuros projetos! </p>
