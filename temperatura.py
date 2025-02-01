@@ -1,6 +1,9 @@
 import pandas as pd
 
-dataset = pd.read_csv('GlobalLandTemperaturesByCity.csv', sep=',', encoding='utf-8')
+try:
+    dataset = pd.read_csv('GlobalLandTemperaturesByCity.csv', sep=',', encoding='utf-8')
+except FileNotFoundError as error:
+    print(f'Um erro ocorreu: {error}')
 
 dataset = dataset.drop(columns=['AverageTemperatureUncertainty', 'Latitude', 'Longitude'])
 dataset = dataset.dropna()
